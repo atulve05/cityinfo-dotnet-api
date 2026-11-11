@@ -24,7 +24,7 @@ env:
   # Location of the Dockerfile in the GitHub repository
   DOCKERFILE_PATH: ./CityInfo.Api/Dockerfile
   #Folder containing the Dockerfile and all files needed to build the Docker image
-  BUILD_CONTEXT: ./CityInfo.Api
+  BUILD_CONTEXT: .
 
 jobs:
   build-and-test:
